@@ -1,59 +1,51 @@
-# Neurochrome Vault
+# Hardware limits are an illusion. Software architecture is the only reality.
 
-**The ultimate media manager for 3D printing libraries.**
-Browse, preview, and organize thousands of STL files without extracting a single archive.
-Built with Rust & React. Offline-first. Lightning fast.
+<div align="center">
+  <img width="1328" height="744" alt="63v00r1bhhrmy0cxfkqtfwepsw" src="https://github.com/user-attachments/assets/f005d4e5-21c0-4399-9b60-bfeac3262253" />
+</div>
 
-**[⬇️ Download Free Trial](https://neurochromearts.gumroad.com/l/xbfva)**
+<br><img width="1376" height="768" alt="unnamed (6)" src="https://github.com/user-attachments/assets/7468512b-a7fd-48f9-a672-00e5df96767f" />
 
----
 
-## The Problem
+### ⚡ We stopped throwing hardware at software problems.
+The 3D printing industry is choking on redundant data. Standard `.zip` archives force you to save the exact same geometry over and over again, crippling mechanical hard drives and bloating your storage.
 
-Hundreds of gigabytes of miniatures, Patreon releases, and Kickstarters scattered across your drives. Giant ZIPs inside RARs inside 7z files. Extracting everything just to find one model wastes terabytes and creates an even bigger mess.
-
-## What Neurochrome Vault Does
-
-Vault reads directly inside compressed archives — ZIP, RAR, 7z, even nested archives (ZIPs inside RARs inside 7z). No extraction required. Ever.
-
-### Core Features
-
-- 🗂️ **Zero-Touch Import** — Drag and drop an archive, Vault analyzes and imports it instantly. Drop an uncompressed folder and Vault auto-compresses it into a ZIP to save disk space.
-- 📦 **Nested Archives** — Handles complex multi-layered archives typical of large monthly Patreon/Kickstarter releases.
-- 🔍 **Integrated 3D Viewer** — Click any STL to preview it in real-time 3D directly inside Vault. No external software needed.
-- 📸 **Automatic Snapshots** — Take screenshots from the 3D viewer, automatically added to the model's visual gallery.
-- 🧠 **Auto-Support Detection** — Geometric analysis of polygon normals automatically tags Pre-Supported STL files.
-- 🏷️ **Smart Organization** — Filter by creator, faction, rating, tags. Search across your entire library in seconds.
-- 🖨️ **Print Queue** — Track what you want to print next with a persistent queue.
-- 🔒 **100% Offline** — No cloud, no subscriptions, no accounts required after initial activation. Your encrypted database stays on your PC.
-
-## Download
-
-The **Trial version is free** — up to 10 imported releases, full functionality, no time limit.
-
-### [⬇️ Download the Free Trial on Gumroad](https://neurochromearts.gumroad.com/l/xbfva)
-
-Early Adopter lifetime licenses (up to 3 devices) will be available soon at a discounted launch price. Download the Trial to get notified when they go live.
-
-## System Requirements
-
-| Component | Minimum | Recommended |
-|-----------|---------|-------------|
-| OS | Windows 10/11 (64-bit) | — |
-| CPU | Intel i3 / AMD Ryzen 3 | — |
-| RAM | 4 GB | 8 GB (large libraries) |
-| GPU | Any with WebGL 2.0 | Dedicated GPU (large STLs) |
-| Storage | 50 MB + your library | — |
-| Internet | Initial activation only | 100% offline after |
-
-## Feedback
-
-Found a bug? Have a suggestion? Use the **Feedback** button inside the app — every report is read personally by the developer.
-
-## Updates
-
-This repository hosts the OTA update system. Vault checks for updates automatically and installs them seamlessly.
+I built **Neurochrome Vault**, a professional-grade 3D asset manager written in pure **Rust**, to bypass physical I/O limits and shift the burden to multi-threaded CPU execution.
 
 ---
 
-*[NeuroChrome Arts](https://neurochromearts.gumroad.com) — Built by an indie developer who needed a better way to manage a massive STL collection.*
+### 🚀 The Performance Paradox
+
+By utilizing **FastCDC** (Content-Defined Chunking) and pouring highly compressed, encrypted containers directly into RAM, the engine achieves impossible speeds on degraded hardware.
+
+*   **Task:** Load and render a 106MB high-density STL asset.
+*   **Hardware:** Thermal-throttled mechanical hard drive (38.79 MB/s limit).
+*   **Theoretical Physical Limit:** ~2.78 seconds.
+*   **Neurochrome Vault Actual Load Time:** **515 milliseconds**. (5x faster than the disk can spin).
+
+<div align="center">
+  <img width="1376" height="768" alt="unnamed (6)" src="https://github.com/user-attachments/assets/e3e7f6d3-3f9c-483a-a069-8f785afed550" />
+</div>
+
+
+---
+
+### 🛡️ Military-Grade Core Features
+- **Global Deduplication:** Shatters archives and stores identical geometry only once. **Up to 60% space reclaimed.**
+- **Sub-Millisecond Previews:** Generates optimized NCLP meshes during import for instant visual identification.
+- **100% Offline Sovereignty:** Zero cloud telemetry. Your library is locked to your unique hardware fingerprint via AES-256 SQLCipher.
+
+---
+
+### 📥 Take Command of Your Collection
+Stop buying external hard drives. Reclaim your space and speed.
+
+🔗 **[Download the Early Adopter Beta on Gumroad](https://neurochromearts.gumroad.com/l/xbfva)**
+🎥 **[Watch the Architectural Breakdown on YouTube](https://youtu.be/ceeaXybxatk)**
+🤝 **[Become an Affiliate (25% Commission)](https://neurochromearts.gumroad.com/affiliates)**
+
+<br>
+
+<div align="center">
+  <i>"By fusing high-end data science with cybernetic UI design, NCV shifts the burden of physical storage into the domain of multi-threaded cognitive processing."</i>
+
