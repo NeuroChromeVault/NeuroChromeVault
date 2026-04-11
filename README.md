@@ -1,8 +1,8 @@
-![insight](https://github.com/user-attachments/assets/e7b87274-239e-495b-ac9c-3436521ff6ce)
+
 # Hardware limits are an illusion. Software architecture is the only reality.
 
 <div align="center">
-  <img width="1328" height="744" alt="Engineering Insight" src="https://github.com/user-attachments/assets/f005d4e5-21c0-4399-9b60-bfeac3262253" />
+![insight](https://github.com/user-attachments/assets/e7b87274-239e-495b-ac9c-3436521ff6ce)
 </div>
 
 <br>
