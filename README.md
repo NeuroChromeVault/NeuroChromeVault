@@ -4,8 +4,6 @@
   <img width="1328" height="744" alt="63v00r1bhhrmy0cxfkqtfwepsw" src="https://github.com/user-attachments/assets/f005d4e5-21c0-4399-9b60-bfeac3262253" />
 </div>
 
-<br><img width="1376" height="768" alt="unnamed (6)" src="https://github.com/user-attachments/assets/7468512b-a7fd-48f9-a672-00e5df96767f" />
-
 
 ### ⚡ We stopped throwing hardware at software problems.
 The 3D printing industry is choking on redundant data. Standard `.zip` archives force you to save the exact same geometry over and over again, crippling mechanical hard drives and bloating your storage.
