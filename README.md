@@ -22,8 +22,9 @@ By utilizing **FastCDC** (Content-Defined Chunking) and pouring highly compresse
 *   **Neurochrome Vault Actual Load Time:** **515 milliseconds**. (5x faster than the disk can spin).
 
 <div align="center">
-  <img width="1376" height="768" alt="unnamed (6)" src="https://github.com/user-attachments/assets/e3e7f6d3-3f9c-483a-a069-8f785afed550" />
+  ![unnamed (6)](https://github.com/user-attachments/assets/3b9d8676-b24c-4131-b5e2-6b504529b6c9)
 </div>
+
 
 
 ---
