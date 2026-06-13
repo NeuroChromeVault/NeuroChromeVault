@@ -9,7 +9,7 @@
   <img src="https://raw.githubusercontent.com/NeuroChromeVault/NeuroChromeVault/main/assets/hero-library.png" alt="Neurochrome Vault: Dark Theme Library with Integrated Gallery">
 </p>
 
-[**Download the latest release**](https://github.com/NeuroChromeVault/NeuroChromeVault/releases/latest) · [**Buy on Gumroad**](https://neurochrome.gumroad.com/l/vault) · [Affiliate program](https://neurochrome.gumroad.com/affiliates)  
+[**Download the latest release**](https://github.com/NeuroChromeVault/NeuroChromeVault/releases/latest) · [**Buy on Gumroad**](https://gumroad.com/products/ywbel/) · [Affiliate program](https://neurochromearts.gumroad.com/affiliates)  
 ~15 MB installer · signed auto-updates · Windows 10/11 x64
 
 ---
@@ -72,9 +72,9 @@ We believe your collection belongs to you.
 ## Licensing & Affiliates
 
 Neurochrome Vault is proprietary software. 
-Available as a one-time purchase on [Gumroad](https://neurochrome.gumroad.com/l/vault) — includes free updates through the entire 0.x/1.x lifecycle.
+Available as a one-time purchase on [Gumroad](https://gumroad.com/products/ywbel/) — includes free updates through the entire 0.x/1.x lifecycle.
 
-**Earn with us:** Love NCV? Join the [Affiliate Program](https://neurochrome.gumroad.com/affiliates) and earn a percentage for every new collector you bring into the Vault.
+**Earn with us:** Love NCV? Join the [Affiliate Program](https://neurochromearts.gumroad.com/affiliates) and earn a percentage for every new collector you bring into the Vault.
 
 ---
 
