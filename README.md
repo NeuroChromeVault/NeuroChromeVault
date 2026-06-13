@@ -6,7 +6,7 @@
 </div>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/NeuroChromeVault/NeuroChromeVault/main/assets/hero-library.png?v=blur" alt="Neurochrome Vault: Dark Theme Library with Integrated Gallery">
+  <img src="https://raw.githubusercontent.com/NeuroChromeVault/NeuroChromeVault/main/assets/hero-library-blur.png" alt="Neurochrome Vault: Dark Theme Library with Integrated Gallery">
 </p>
 
 [**Download the latest release**](https://github.com/NeuroChromeVault/NeuroChromeVault/releases/latest) · [**Buy on Gumroad**](https://gumroad.com/products/ywbel/) · [Affiliate program](https://neurochromearts.gumroad.com/affiliates)  
