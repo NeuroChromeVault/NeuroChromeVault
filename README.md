@@ -29,6 +29,14 @@ Neurochrome Vault avoids that workflow once your files are imported. It separate
 - **No “extract just to check” loop** — once a release lives in the vault, you browse it as a library item, not as a pile of compressed files.
 - **Inspector built in** — file size, triangle count, bounds, and manifold status stay visible where decisions happen.
 
+## Full 3D viewer, built for printing decisions
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/NeuroChromeVault/NeuroChromeVault/main/assets/full-3d-viewer.png" alt="Neurochrome Vault Full 3D Viewer with Lighting Controls and Mesh Inspector">
+</p>
+
+Open the full-resolution STL when you need to make the final call. Rotate the model, inspect mesh properties, adjust lighting, switch presentation modes, and send the file directly to your slicer without losing context.
+
 ---
 
 ## Why Neurochrome Vault?
