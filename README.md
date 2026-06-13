@@ -1,53 +1,83 @@
-# Hardware limits are an illusion. Software architecture is the only reality.
+# Neurochrome Vault
 
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/e7b87274-239e-495b-ac9c-3436521ff6ce" alt="Engineering Insight" width="100%">
+  <h3>Your 3D-printable model collection, finally under control.</h3>
+  <p><strong>Import messy archives, browse with instant 3D previews, reclaim disk space, and keep everything local.</strong></p>
 </div>
 
-<br>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/NeuroChromeVault/NeuroChromeVault/main/assets/hero-library.png" alt="Neurochrome Vault: Dark Theme Library with Integrated Gallery">
+</p>
 
-### ⚡ We stopped throwing hardware at software problems.
-The 3D printing industry is choking on redundant data. Standard `.zip` archives force you to save the exact same geometry over and over again, crippling mechanical hard drives and bloating your storage.
-
-I built **Neurochrome Vault**, a professional-grade 3D asset manager written in pure **Rust**, to bypass physical I/O limits and shift the burden to multi-threaded CPU execution.
+[**Download the latest release**](https://github.com/NeuroChromeVault/NeuroChromeVault/releases/latest) · [**Buy on Gumroad**](https://neurochrome.gumroad.com/l/vault) · [Affiliate program](https://neurochrome.gumroad.com/affiliates)  
+~15 MB installer · signed auto-updates · Windows 10/11 x64
 
 ---
 
-### 🚀 The Performance Paradox
+## Why it feels fast: preview first, full mesh next
 
-By utilizing **FastCDC** (Content-Defined Chunking) and pouring highly compressed, encrypted containers directly into RAM, the engine achieves impossible speeds on degraded hardware.
+Most 3D-print libraries are trapped in the slow path: extract an archive, write temporary files, read a raw STL, parse the geometry, then finally discover whether it was even the model you wanted.
 
-*   **Task:** Load and render a 106MB high-density STL asset.
-*   **Hardware:** Thermal-throttled mechanical hard drive (38.79 MB/s limit).
-*   **Theoretical Physical Limit:** ~2.78 seconds.
-*   **Neurochrome Vault Actual Load Time:** **515 milliseconds**. (5x faster than the disk can spin).
+Neurochrome Vault avoids that workflow once your files are imported. It separates *visual feedback* from *full-resolution delivery*:
 
-<br>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/NeuroChromeVault/NeuroChromeVault/main/assets/inline-viewer-inspector.png" alt="Instant LOD Preview with Inline 3D Viewer and Mesh Inspector">
+</p>
+
+- **Instant LOD preview** — open a model immediately from a precomputed low-poly representation.
+- **Full mesh in the background** — the Rust backend streams the high-resolution STL into the viewer while you inspect, rotate, queue, or send it to your slicer.
+- **No “extract just to check” loop** — once a release lives in the vault, you browse it as a library item, not as a pile of compressed files.
+- **Inspector built in** — file size, triangle count, bounds, and manifold status stay visible where decisions happen.
+
+---
+
+## Why Neurochrome Vault?
+
+STL collections inevitably grow into hundreds of gigabytes of ZIP/RAR/7z folders with cryptic names like `final_v2_supported(3).zip`. Finding a model usually means extracting archives until you give up.
+
+Vault ingests everything once, understands what it is, and gives you a searchable, previewable, compressed library without taking ownership away from you: **no cloud, no account, files stay on your disk.**
+
+### Core Features
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/NeuroChromeVault/NeuroChromeVault/main/assets/vault-stats.png" alt="Neurochrome Vault Storage Engine and Deduplication Heatmap">
+</p>
+
+- **Import messy collections:** ZIP / RAR / 7z / multipart archives, folders, and loose files. Creator detection (200+ known studios), release splitting, supported/unsupported variant detection, cover extraction, and subject tagging.
+- **Preview before you commit:** Instant LOD preview, full mesh loading in the background, solid / wire / resin / neon modes, and one-click handoff to your slicer.
+- **The NCV Storage Engine:** 
+  - **FastCDC Content-Defined Chunking:** Identifies and shares identical physical chunks of geometry across completely different files.
+  - **Delta Encoding & Zstd Compression:** Stores only the binary differences for 3D variants and utilizes adaptive dictionary training for meshes.
+  - **Security:** BLAKE3 integrity checks and an encrypted index (SQLCipher / ChaCha20-Poly1305). Typical global storage savings range from 30% to 60%.
+- **Portable Exports (NCV & ZIP):** Export any release as a standalone `.ncv` container with embedded metadata and write-time integrity checks, or as a standard `.zip` for maximum compatibility.
+- **Data Safety as Policy:** Rotating backups, verified restores, user-driven orphan resolution, and background jobs that never silently delete files.
+- **Library Intelligence:** Collections, favorites, ratings, print queue and history, wishlist, faction/scale taxonomy, full-text search, and vault statistics.
+- **MCP Server Integration (Optional):** Query your local library directly from your AI tools via the Model Context Protocol (localhost, Bearer-token authenticated).
+
+---
+
+## Architecture (For the Curious)
+
+NCV is built on a **Rust core** (chunk store, dedup registry, STL parsing, decimation), paired with a **Tauri 2 shell**, and a **React/TypeScript UI**. 
+
+The performance-critical paths—STL parsing, mesh streaming, and the chunk codec—are pure Rust. The 3D viewport rides Three.js over a zero-copy custom protocol. Over 115 core tests guard the storage invariants, guaranteeing deduplication correctness, standalone export viability, and robust data-loss prevention.
+
+## Data Ownership & Privacy
+
+We believe your collection belongs to you.
+- **Vault Location:** You choose where it lives. The database is local, encrypted, and machine-bound.
+- **No Lock-In:** Export everything at any time in NCV, ZIP, or original archive formats.
+- **Absolute Privacy:** No telemetry (unless manually opted-in). Zero network calls except for update checks and license validation.
+
+## Licensing & Affiliates
+
+Neurochrome Vault is proprietary software. 
+Available as a one-time purchase on [Gumroad](https://neurochrome.gumroad.com/l/vault) — includes free updates through the entire 0.x/1.x lifecycle.
+
+**Earn with us:** Love NCV? Join the [Affiliate Program](https://neurochrome.gumroad.com/affiliates) and earn a percentage for every new collector you bring into the Vault.
+
+---
 
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/3b9d8676-b24c-4131-b5e2-6b504529b6c9" alt="Telemetry Readout" width="100%">
-</div>
-
----
-
-### 🛡️ Military-Grade Core Features
-*   **Global Deduplication:** Shatters archives and stores identical geometry only once. **Up to 60% space reclaimed.**
-*   **Sub-Millisecond Previews:** Generates optimized NCLP meshes during import for instant visual identification.
-*   **100% Offline Sovereignty:** Zero cloud telemetry. Your library is locked to your unique hardware fingerprint via AES-256 SQLCipher.
-
----
-
-### 📥 Take Command of Your Collection
-Stop buying external hard drives. Reclaim your space and speed.
-
-🔗 **[Download the Early Adopter Beta on Gumroad](https://neurochromearts.gumroad.com/l/xbfva)**
-
-🎥 **[Watch the Architectural Breakdown on YouTube](https://youtu.be/ceeaXybxatk)**
-
-🤝 **[Become an Affiliate (25% Commission)](https://neurochromearts.gumroad.com/affiliates)**
-
-<br>
-
-<div align="center">
-  <i>"By fusing high-end data science with cybernetic UI design, NCV shifts the burden of physical storage into the domain of multi-threaded cognitive processing."</i>
+  <i>Built by an Architect who got tired of extracting <code>final_v2_supported(3).zip</code>.</i>
 </div>
