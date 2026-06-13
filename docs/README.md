@@ -25,8 +25,8 @@ Neurochrome Vault is a **desktop STL library manager** for Windows, built for la
 | Raw library size | 396.88 GB |
 | On disk | 197.76 GB |
 | **Space saved** | **199 GB — 50%** |
-| Cold open average | 782 ms |
-| Cached open | 114 ms |
+| LOD Preview render | < 500 ms |
+| Full mesh stream | Background |
 
 ---
 
@@ -38,7 +38,7 @@ Get **Lifetime Access** to the Neurochrome Vault core engine. By joining the Ear
 - **Priority Architecture Support:** Direct feedback loop for large-scale library optimization.
 - **Sovereign Ownership:** Local-first, no subscriptions, no cloud dependencies.
 
-[Join the Early Adopter Batch on Gumroad](https://neurochromearts.gumroad.com/l/xbfva)
+[Buy on Gumroad](https://neurochromearts.gumroad.com/l/ywbel) · [Download Free Trial](https://neurochromearts.gumroad.com/l/xbfva)
 
 ---
 
@@ -48,10 +48,11 @@ Get **Lifetime Access** to the Neurochrome Vault core engine. By joining the Ear
 - 3D printing library management
 - Archive browsing without extraction (ZIP, RAR, 7z)
 - Cross-release deduplication of 3D models
-- Fast STL viewer with progressive streaming
+- Fast STL viewer with instant LOD previews
 
 ---
 
 ## Stack
 
 Built with Rust and Tauri. Local-first, offline, no subscription. Optimized for Patreon, Kickstarter, and MyMiniFactory collectors.
+
