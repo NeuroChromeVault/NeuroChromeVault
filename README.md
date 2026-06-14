@@ -6,7 +6,7 @@
 </div>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/NeuroChromeVault/NeuroChromeVault/main/assets/hero-library-blur.png" alt="Neurochrome Vault: Dark Theme Library with Integrated Gallery">
+  <img src="https://raw.githubusercontent.com/NeuroChromeVault/NeuroChromeVault/main/assets/hero-june.png" alt="Neurochrome Vault: Dark Theme Library with Integrated Gallery">
 </p>
 
 [**Download Free Trial**](https://neurochromearts.gumroad.com/l/xbfva) · [**Buy on Gumroad**](https://neurochromearts.gumroad.com/l/ywbel) · [Affiliate program](https://neurochromearts.gumroad.com/affiliates)  
@@ -23,7 +23,7 @@ Most 3D-print libraries are trapped in the slow path: extract an archive, write 
 Neurochrome Vault avoids that workflow once your files are imported. It separates *visual feedback* from *full-resolution delivery*:
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/NeuroChromeVault/NeuroChromeVault/main/assets/inline-viewer-inspector.png" alt="Instant LOD Preview with Inline 3D Viewer and Mesh Inspector">
+  <img src="https://raw.githubusercontent.com/NeuroChromeVault/NeuroChromeVault/main/assets/inline-viewer-june.png" alt="Instant LOD Preview with Inline 3D Viewer and Mesh Inspector">
 </p>
 
 - **Instant LOD preview** — open a model immediately from a precomputed low-poly representation.
@@ -34,7 +34,7 @@ Neurochrome Vault avoids that workflow once your files are imported. It separate
 ## Full 3D viewer, built for printing decisions
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/NeuroChromeVault/NeuroChromeVault/main/assets/full-3d-viewer.png" alt="Neurochrome Vault Full 3D Viewer with Lighting Controls and Mesh Inspector">
+  <img src="https://raw.githubusercontent.com/NeuroChromeVault/NeuroChromeVault/main/assets/full-3d-june.png" alt="Neurochrome Vault Full 3D Viewer with Lighting Controls and Mesh Inspector">
 </p>
 
 Open the full-resolution STL when you need to make the final call. Rotate the model, inspect mesh properties, adjust lighting, switch presentation modes, and send the file directly to your slicer without losing context.
@@ -50,7 +50,7 @@ Vault ingests everything once, understands what it is, and gives you a searchabl
 ### Core Features
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/NeuroChromeVault/NeuroChromeVault/main/assets/vault-stats.png" alt="Neurochrome Vault Storage Engine and Deduplication Heatmap">
+  <img src="https://raw.githubusercontent.com/NeuroChromeVault/NeuroChromeVault/main/assets/release-detail-june.png" alt="Neurochrome Vault Release Details and Library Intelligence">
 </p>
 
 - **Import messy collections:** ZIP / RAR / 7z / multipart archives, folders, and loose files. Creator detection (200+ known studios), release splitting, supported/unsupported variant detection, cover extraction, and subject tagging.
@@ -91,4 +91,5 @@ Available as a one-time purchase on [Gumroad](https://neurochromearts.gumroad.co
 <div align="center">
   <i>Built by an Architect who got tired of extracting <code>final_v2_supported(3).zip</code>.</i>
 </div>
+
 
