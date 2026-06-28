@@ -3,13 +3,21 @@
 <div align="center">
   <h3>Your 3D-printable model collection, finally under control.</h3>
   <p><strong>Import messy archives, browse with instant 3D previews, reclaim disk space, and keep everything local.</strong></p>
+
+  <a href="https://neurochromearts.gumroad.com/l/ywbel"><img src="https://img.shields.io/badge/Buy_on-Gumroad-FF90E8?style=flat-square&logo=gumroad&logoColor=white" alt="Buy on Gumroad"></a>
+  <img src="https://img.shields.io/badge/Platform-Windows_10%2F11-0078D4?style=flat-square&logo=windows&logoColor=white" alt="Windows 10/11">
+  <br>
+  <img src="https://img.shields.io/badge/Built_with-Rust-DEA584?style=flat-square&logo=rust&logoColor=white" alt="Rust">
+  <img src="https://img.shields.io/badge/Shell-Tauri_2-FFC131?style=flat-square" alt="Tauri 2">
+  <img src="https://img.shields.io/badge/License-Proprietary-9E7BFF?style=flat-square" alt="Proprietary">
+  <img src="https://img.shields.io/badge/Updates-Signed_OTA-34E0E0?style=flat-square" alt="Signed OTA">
 </div>
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/NeuroChromeVault/NeuroChromeVault/main/assets/hero-june.png" alt="Neurochrome Vault: Dark Theme Library with Integrated Gallery">
 </p>
 
-[**Download Free Trial**](https://neurochromearts.gumroad.com/l/xbfva) · [**Buy on Gumroad**](https://neurochromearts.gumroad.com/l/ywbel) · [Affiliate program](https://neurochromearts.gumroad.com/affiliates)  
+[**Download Free Edition**](https://neurochromearts.gumroad.com/l/xbfva) · [**Buy on Gumroad**](https://neurochromearts.gumroad.com/l/ywbel) · [Affiliate program](https://neurochromearts.gumroad.com/affiliates)  
 ~15 MB installer · signed auto-updates · Windows 10/11 x64
 
 > **Note:** This public repository hosts the product landing page, screenshots, documentation, and OTA release downloads. The Neurochrome Vault core source code is proprietary.
@@ -82,7 +90,7 @@ We believe your collection belongs to you.
 ## Licensing & Affiliates
 
 Neurochrome Vault is proprietary software. 
-Available as a one-time purchase on [Gumroad](https://neurochromearts.gumroad.com/l/ywbel) — includes free updates through the entire 0.x/1.x lifecycle. A [free trial](https://neurochromearts.gumroad.com/l/xbfva) is also available.
+Available as a one-time purchase on [Gumroad](https://neurochromearts.gumroad.com/l/ywbel) — includes free updates through the entire 0.x/1.x lifecycle. A [free edition](https://neurochromearts.gumroad.com/l/xbfva) is also available with unlimited duration and a storage cap — all core features, no time limit.
 
 **Earn with us:** Love NCV? Join the [Affiliate Program](https://neurochromearts.gumroad.com/affiliates) and earn a percentage for every new collector you bring into the Vault.
 
